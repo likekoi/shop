@@ -1,0 +1,359 @@
+
+
+@font-face {
+  font-family: TiffanyStd;
+  src: url(TiffanyStd.otf);
+  font-family: GTWalsheim;
+  src: url(GT-Walsheim-Pro-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+.title{
+  text-decoration: none;
+  color: #808000;
+  font-size: 45px;
+
+}
+
+.flower {
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 20px;
+  height: 20px;
+
+}
+
+.faketab{
+  padding-top: 0.5%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.tabin {
+  display: inline-flex;
+  padding-left: 3%;
+  font-size: 20px;
+  text-decoration: none;
+  color: #866BB3;
+  padding-bottom: 2%;
+}
+
+.tabtain {
+  display: flex;
+  justify-content: center;
+}
+
+.tabtain1 {
+  display: flex;
+  justify-content: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.tabin1 {
+  display: inline-flex;
+  padding-left: 7%;
+  font-size: 20px;
+  text-decoration: none;
+  color: #866BB3;
+  padding-bottom: 1%;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: TiffanyStd;
+
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.backcolor {
+  background-color: pink;
+  height: 25px;
+
+}
+p{
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
+  padding-top: 4.5px;
+  color: orange;
+  font-family: GTWalsheim;
+
+ }
+ .font{
+   font-family: GTWalsheim;
+
+}
+
+a{
+  text-decoration: none;
+  color:black;
+  cursor:pointer;
+}
+
+.brohelp{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5%;
+  object-fit: cover;
+}
+#oop{
+  padding-bottom: 0%
+}
+img{
+  max-width:100%;
+  max-height:100%;
+}
+.titley{
+  color: black;
+  font-size: 40px;
+  font-family: GTWalsheim;
+}
+
+
+.cover{
+  margin-left: 4%;
+  margin-right: 4%;
+  height: 100%;
+
+
+
+}
+.imgcover{
+height: 70%;
+width: 100%;
+}
+
+.tri{
+  height: 50%;
+  padding-top: 1%;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 100%;
+
+
+}
+.imgs{
+  margin: 0px;
+  width: 330px;
+  height: 50%;
+
+}
+
+.set1{
+  display: flex;
+  flex-direction: column;
+  width: 330px;
+  height:400px;
+  white-space: pre-wrap; /* css-3 */
+  white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  word-wrap: break-word; /* Internet Explorer 5.5+ */
+
+}
+
+.titlei{
+  font-family: GTWalsheim;
+  font-size: 25px;
+  color: black;
+  display: inline-block;
+  word-break: break-word;
+
+}
+
+.bottoms{
+  background-color: pink;
+  height: 150px;
+  margin: 0;
+}
+
+h1{
+  font-family: GTWalsheim;
+  font-size: 50px;
+  color: black;
+  font-weight:200;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+h5{
+  font-family: GTWalsheim;
+  font-size: 20px;
+  color: black;
+  font-weight:100;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+h6{
+  font-family: GTWalsheim;
+  color: black;
+  font-weight:100;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+.article{
+  font-family: GTWalsheim;
+  font-size: 20px;
+  color: black;
+  font-weight:100;
+}
+
+
+/* gallery layout */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 35px;
+    text-align: center
+}
+
+.gallery__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
+.gallery__item--2 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+
+.gallery__item--3 {
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 5;
+
+}
+
+.gallery__item--4 {
+  grid-column-start: 6;
+  grid-column-end: 8;
+  grid-row-start: 1;
+  grid-row-end: 5;
+
+}
+.gallery__item--69 {
+  grid-column-start: 2;
+  grid-column-end: 8;
+  grid-row-start: 1;
+  grid-row-end: 7;
+
+}
+
+.galtxt{
+  font-family: GTWalsheim;
+  font-size: 20px;
+  color: black;
+  display: inline-block;
+  word-break: break-word;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+/* https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/ */
+
+/* product layout */
+.imgtit{
+  display: flex;
+  flex-wrap: wrap;
+}
+.prodmain{
+  padding-left: 12.5%;
+  height: 600px;
+  width: 350px;
+  object-fit: cover;
+}
+
+.prodtitle{
+  padding-left: 20px;
+  font-size: 40px;
+}
+.des{
+  padding-left: 7px;
+  word-break: break-word;
+  width: 400px;
+  height: auto;
+}
+
+.ship{
+  padding-left: 7px;
+  word-break: break-word;
+  width: 400px;
+  height: auto;
+  color: #12b04e;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+.button {
+  padding-left: 20px;
+}
+.descrp{
+  display: block;
+  font-family: GTWalsheim;
+}
+
+
+/* talent page */
+.banner{
+  color: black;
+  font-size: 50px;
+  padding-bottom: 5px;
+  padding-top: 0px;
+}
+
+
+/* apply page */
+.applylol {
+ color: black;
+ font-size: 20px;
+ display: flex;
+ justify-content: center;
+ padding-top: 10px;
+}
+
+.oo{
+  display: flex;
+  justify-content: center;
+  color: pink;
+  font-size: 20px;
+  padding-bottom: 5%;
+
+}
+
+/* fone shiii */
+@media only screen and (max-width: 959px){
+  .brohelp{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    object-fit: cover;
+  }
+  .backcolor{
+    display: none;
+  }
+
+}
